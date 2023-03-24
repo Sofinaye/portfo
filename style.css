@@ -1,0 +1,46 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+.headerr {
+  display: flex;
+  justify-content: space-between;
+  background: #3c3a39;
+}
+
+.navbar-brand {
+  text-decoration: none;
+  color: #fff5e1;
+   font-family: "Roboto", serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 12px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3c3a39;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.8rem;
+  padding: 1rem 3rem;
+}
+
+.navbar-list-item {
+  list-style: none;
+}
+
+.navbar-list-item a {
+  color: #fff;
+}
+
