@@ -78,3 +78,22 @@ html {
   line-height: 24px;
 }
 
+.portfolio-social {
+  display: flex;
+  gap: 2rem;
+  margin-top: 3rem;
+  list-style: none;
+  color: #dbd8d7;
+  font-size: 20px;
+  margin-left: 2rem;
+}
+
+.portfolio-social a {
+  color: #dbd8d7;
+}
+
+.portfolio-img {
+  position: absolute;
+  bottom: -4rem;
+  right: 0;
+}
