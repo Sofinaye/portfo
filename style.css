@@ -44,3 +44,9 @@ html {
   color: #fff;
 }
 
+.header {
+  background-color: #1c1a19;
+  padding: 12rem 3rem;
+  position: relative;
+}
+
