@@ -167,3 +167,33 @@ html {
   font-size: 16px;
   line-height: 24px;
 }
+
+.project-btns {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+
+.project-btns-list {
+  font-weight: 500;
+  font-size: 15px;
+  padding: 1rem;
+  margin: 1rem 0;
+  border: 0.1rem solid #8993a4;
+  background: #fff;
+  color: #091e42;
+  font-family: "Inter", serif;
+}
+
+.project-btn {
+  padding: 1rem 2rem;
+  background-color: #ff6b00;
+  color: #fff;
+  font-family: "Inter", serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 2.4rem;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s all;
+}
