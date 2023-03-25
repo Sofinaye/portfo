@@ -202,3 +202,12 @@ html {
   background-color: rgb(231, 220, 175);
   transform: translateY(3px);
 }
+
+.project-btn:active {
+  background-color: #ee3100;
+  transform: translateY(1px);
+}
+
+.project-btn:disabled {
+  background-color: rgb(172, 170, 170);
+}
