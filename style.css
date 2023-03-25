@@ -103,3 +103,67 @@ html {
   bottom: -4rem;
   right: 0;
 }
+
+.project {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.underlined {
+  border-bottom: 1px solid #212121;
+}
+
+.projects-heading1 h3 {
+  font-family: "Crete Round", serif;
+  font-size: 32px;
+  color: #fff;
+  text-align: left;
+  font-weight: 400;
+  margin-top: 5rem;
+  margin-left: 1rem;
+}
+
+.project .underlined {
+  color: #1d1a19;
+  font-size: 40px;
+  font-family: "Crete Round", serif;
+  font-weight: 400;
+  margin: 3rem 0;
+  text-align: center;
+  padding: 2rem;
+}
+
+.project-heading {
+  font-family: "Crete Round", serif;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 400;
+}
+
+.project-item-img {
+  width: 100%;
+}
+
+.project-item-img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.project-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+}
+
+.project-disc {
+  margin-top: 2.4rem;
+}
+
+.project-disc-main {
+  color: #091e42;
+  font-family: 'Inter', serif;
+  font-size: 16px;
+  line-height: 24px;
+}
