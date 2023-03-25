@@ -318,6 +318,20 @@ html {
   transition: 0.3s all;
 }
 
+.about-btn:hover {
+  background-color: rgb(231, 220, 175);
+  transform: translateY(3px);
+}
+
+.about-btn:active {
+  background-color: #ee3100;
+  transform: translateY(1px);
+}
+
+.about-btn:disabled {
+  background-color: rgb(172, 170, 170);
+}
+
 .about-line {
   height: 1px;
   width: 100%;
