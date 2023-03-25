@@ -305,10 +305,18 @@ html {
   margin-bottom: 2rem;
 }
 
-/* .about-img {
-  height: 25rem;
-  margin-right: -2rem;
-} */
+.about-btn {
+  background-color: #ff6b00;
+  color: #fff;
+  border: none;
+  font-size: 17px;
+  font-family: 'Inter', serif;
+  font-weight: 700;
+  padding: 1.5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: 0.3s all;
+}
 
 .about-line {
   height: 1px;
