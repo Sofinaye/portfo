@@ -30,6 +30,7 @@ html {
 .navbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: #3c3a39;
   color: #fff;
   font-weight: 700;
