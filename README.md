@@ -77,7 +77,7 @@ Clone this repository to your desired folder: to your desired.
   Abenezer
 
 - GitHub: [@githubhandle](https://github.com/Sofinaye)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- Twitter: [@twitterhandle](https://twitter.com/Abeni_Fekadu)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/abenezer-fekadu/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
