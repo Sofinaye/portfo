@@ -211,3 +211,10 @@ html {
 .project-btn:disabled {
   background-color: rgb(172, 170, 170);
 }
+
+.projects-primary {
+  background-image: url("./img/art1.png");
+  background-size: cover;
+  background-position: center;
+  margin-top: 2rem;
+}
