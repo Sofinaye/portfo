@@ -197,3 +197,8 @@ html {
   cursor: pointer;
   transition: 0.3s all;
 }
+
+.project-btn:hover {
+  background-color: rgb(231, 220, 175);
+  transform: translateY(3px);
+}
