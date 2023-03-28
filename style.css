@@ -381,3 +381,42 @@ html {
 .qualification-item {
   margin-bottom: 1rem;
 }
+
+.contact {
+  padding: 5rem 2rem;
+}
+
+.contact-heading {
+  font-family: 'Inter', serif;
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #172b4d;
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  font-family: 'Inter', serif;
+}
+
+.contact-input {
+  border: none;
+  margin-top: 2rem;
+  border-bottom: solid 1px #dbd8d7;
+  width: 100%;
+  color: #979493;
+  padding: 1rem;
+}
+
+.contact-textarea {
+  border: none;
+  padding: 1rem;
+  background: #fbf8f7;
+  height: 12rem;
+  width: 100%;
+  color: #3c3a39;
+}
