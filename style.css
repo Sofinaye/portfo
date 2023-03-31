@@ -468,3 +468,22 @@ html {
   background: #0d151e;
   border-radius: 10px;
 }
+
+.navbar-link {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar-link {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+  }
+
+  .navbar-link-item {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Inter', serif;
+  }
+}
