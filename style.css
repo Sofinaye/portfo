@@ -474,6 +474,18 @@ html {
 }
 
 @media only screen and (min-width: 768px) {
+  html {
+    font-size: 80%;
+  }
+
+  .navbar-brand {
+    font-size: 20px;
+  }
+
+  .navbar-list {
+    display: none;
+  }
+
   .navbar-link {
     display: flex;
     list-style: none;
