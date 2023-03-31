@@ -498,4 +498,65 @@ html {
     font-size: 15px;
     font-family: 'Inter', serif;
   }
+
+  .header-text {
+    font-size: 72px;
+  }
+
+  .body-text-header {
+    font-size: 32px;
+  }
+
+  .projects-heading1 h3 {
+    font-size: 32px;
+  }
+
+  .projects-disc1 p {
+    font-size: 17px;
+  }
+
+  .body-text-main p {
+    font-size: 20px;
+  }
+
+  .headerr {
+    padding: 0 9rem;
+  }
+
+  .header {
+    gap: 3rem;
+    padding-right: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .header-main-container {
+    display: flex;
+    gap: 6rem;
+    align-items: center;
+  }
+
+  .body-text-main {
+    width: 45%;
+    margin-right: 5%;
+  }
+
+  .portfolio-img {
+    display: none;
+  }
+
+  /* .header-overly {
+    background-image: url("./img/header.svg");
+    flex: 1;
+    height: 45vw;
+    background-position: center;
+    background-size: cover;
+    display: block;
+  } */
+
+  .portfolio-social {
+    order: -1;
+    display: flex;
+    flex-direction: column;
+  }
 }
