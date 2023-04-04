@@ -421,6 +421,15 @@ html {
   color: #3c3a39;
 }
 
+.contact-btn {
+  padding: 1rem 2rem;
+  background-color: #ff6f00;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 17px;
+}
+
 .navbar-link {
   display: none;
 }
