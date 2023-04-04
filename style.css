@@ -431,17 +431,18 @@ html {
 }
 
 .contact-btn:hover {
-  background-color: rgb(231, 220, 175);
-  color: #ff6b00;
+  background-color: #fff5e1;
+  color: #f55800;
 }
 
 .contact-btn:active {
-  background-color: #ee3100;
-  transform: translateY(1px);
+  background-color: #f55800;
+  color: #fff;
 }
 
 .contact-btn:disabled {
-  background-color: rgb(172, 170, 170);
+  background-color: #f4f1f0;
+  color: #5b5957;
 }
 
 .footer {
