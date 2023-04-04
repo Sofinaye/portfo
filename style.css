@@ -430,6 +430,20 @@ html {
   font-size: 17px;
 }
 
+.contact-btn:hover {
+  background-color: rgb(231, 220, 175);
+  color: #ff6b00;
+}
+
+.contact-btn:active {
+  background-color: #ee3100;
+  transform: translateY(1px);
+}
+
+.contact-btn:disabled {
+  background-color: rgb(172, 170, 170);
+}
+
 .footer {
   margin-top: 3rem;
 }
