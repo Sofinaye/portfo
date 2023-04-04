@@ -462,13 +462,6 @@ html {
   color: #505f79;
 }
 
-.social-under {
-  height: 5px;
-  margin: 2rem 30%;
-  background: #0d151e;
-  border-radius: 10px;
-}
-
 .navbar-link {
   display: none;
 }
