@@ -500,6 +500,12 @@ html {
     font-family: 'Inter', serif;
   }
 
+  .headerr {
+    justify-content: space-between;
+    padding: 0 9rem;
+    align-content: center;
+  }
+
   .header {
     background: #1c1a19;
     flex-direction: row;
@@ -509,7 +515,8 @@ html {
     display: flex;
     width: 60%;
     flex-direction: row-reverse;
-    gap: 2rem;
+    gap: 6rem;
+    align-items: center;
   }
 
   .portfolio-social {
