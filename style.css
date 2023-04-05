@@ -479,6 +479,27 @@ html {
     font-size: 80%;
   }
 
+  .navbar-brand {
+    font-size: 20px;
+  }
+
+  .navbar-list {
+    display: none;
+  }
+
+  .navbar-link {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+  }
+
+  .navbar-link-item {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Inter', serif;
+  }
+
   .header {
     background: #1c1a19;
     flex-direction: row;
