@@ -584,4 +584,21 @@ html {
     position: absolute;
     bottom: 0;
   }
+
+  .projects-primary:hover {
+    background-image: url("./img/project-bg.svg");
+    transform: scale(1.1);
+  }
+
+  .projects-primary:hover .project1-btn {
+    display: block;
+    height: 4rem;
+    align-items: flex-end;
+  }
+
+  .projects-primary:hover .project1-btns,
+  .projects-primary:hover .projects-heading1,
+  .projects-primary:hover .projects-disc1 {
+    display: none;
+  }
 }
