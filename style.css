@@ -578,4 +578,10 @@ html {
     transition: all 0.5s;
     padding-top: 7rem;
   }
+
+  .project1-btn {
+    display: none;
+    position: absolute;
+    bottom: 0;
+  }
 }
