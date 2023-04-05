@@ -517,10 +517,50 @@ html {
     flex-direction: column;
   }
 
-  .side {
+  .header-overly {
     width: 40%;
     background: url("./img/desktop-bg.png");
     background-size: cover;
     background-repeat: no-repeat;
+  }
+
+  .project-list {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .project-item-img {
+    width: 50vw;
+  }
+
+  .project {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .underlined {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 0;
+    font-size: 40px;
+  }
+
+  .underlined-hr {
+    flex: 1;
+    height: 2px;
+    display: block;
+    background-color: #212121;
+  }
+
+  .project-heading {
+    font-size: 40px;
+  }
+
+  .project-disc-main {
+    font-size: 20px;
   }
 }
