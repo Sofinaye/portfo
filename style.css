@@ -643,4 +643,27 @@ html {
     height: 100%;
     right: 0;
   }
+
+  .qualification {
+    display: flex;
+    padding-left: 10%;
+    padding-right: 20%;
+    justify-content: space-between;
+  }
+
+  .qualification-heading {
+    font-size: 32px;
+  }
+
+  .qualification-item {
+    font-size: 22px;
+  }
+
+  .qualification-list {
+    align-items: flex-start;
+  }
+
+  .qualification-type {
+    align-items: flex-start;
+  }
 }
