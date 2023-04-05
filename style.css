@@ -518,10 +518,12 @@ html {
   }
 
   .header-overly {
-    width: 40%;
-    background: url("./img/desktop-bg.png");
+    background-image: url("./img/header.svg");
+    flex: 1;
+    height: 45vw;
+    background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
+    display: block;
   }
 
   .project-list {
@@ -562,5 +564,18 @@ html {
 
   .project-disc-main {
     font-size: 20px;
+  }
+
+  .all-project {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  .projects-primary {
+    cursor: pointer;
+    position: relative;
+    transition: all 0.5s;
+    padding-top: 7rem;
   }
 }
