@@ -509,6 +509,8 @@ html {
   .header {
     background: #1c1a19;
     flex-direction: row;
+    margin-right: 0;
+    padding-right: 0;
   }
 
   .header1 {
@@ -517,6 +519,18 @@ html {
     flex-direction: row-reverse;
     gap: 6rem;
     align-items: center;
+  }
+
+  .body-text-main p {
+    font-size: 20px;
+  }
+
+  .header-text {
+    font-size: 72px;
+  }
+
+  .body-text-header {
+    font-size: 32px;
   }
 
   .portfolio-social {
@@ -528,9 +542,11 @@ html {
     background-image: url("./img/header.svg");
     flex: 1;
     height: 45vw;
-    background-position: center;
+    background-position: 100% 100%;
     background-size: cover;
     display: block;
+    margin-right: 0;
+    padding-right: 0;
   }
 
   .project-list {
