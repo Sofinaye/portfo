@@ -671,7 +671,7 @@ html {
   .qualification {
     display: flex;
     padding-left: 10%;
-    padding-right: 20%;
+    padding-right: 10%;
     justify-content: space-between;
   }
 
@@ -716,5 +716,11 @@ html {
 
   .social-under {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 768px) {
+  .all-project {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
