@@ -32,6 +32,11 @@ html {
   padding: 12px;
 }
 
+.navbar-brand:hover {
+  color: #fff;
+  transform: scale(1.1);
+}
+
 .navbar {
   justify-content: space-between;
   background-color: #3c3a39;
