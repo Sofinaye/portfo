@@ -5,6 +5,7 @@
   - [🛠 Built With](Html,Css)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -46,6 +47,14 @@ The portfolio is built with html, css and linter configration with git workflow.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- [Live Demo Link](https://sofinaye.github.io/Portfolio/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
@@ -71,6 +80,7 @@ Clone this repository to your desired folder: to your desired.
 - GitHub: [@githubhandle](https://github.com/Sofinaye)
 - Twitter: [@twitterhandle](https://twitter.com/Abeni_Fekadu)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/abenezer-fekadu/)
+- Live link: [Live-link](https://sofinaye.github.io/Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
