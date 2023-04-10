@@ -71,6 +71,7 @@ Clone this repository to your desired folder: to your desired.
 - GitHub: [@githubhandle](https://github.com/Sofinaye)
 - Twitter: [@twitterhandle](https://twitter.com/Abeni_Fekadu)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/abenezer-fekadu/)
+- Live link: [Live-link](https://sofinaye.github.io/Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
