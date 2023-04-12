@@ -82,12 +82,6 @@ Clone this repository to your desired folder: to your desired.
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/abenezer-fekadu/)
 - Live link: [Live-link](https://sofinaye.github.io/Portfolio/)
 
- **Noel Nomgne Foka**
-- GitHub: [@githubhandle](https://github.com/noelfoka)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/noelfoka)
-- Twiter: [twitter](https://twitter.com/noelnomgne)
-- Live link: [Live-link](https://noelfoka.github.io/portfolio-version/)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
