@@ -209,6 +209,7 @@ html {
 .project-btn:hover {
   background-color: rgb(231, 220, 175);
   transform: translateY(3px);
+  color: #ee3100;
 }
 
 .project-btn:active {
