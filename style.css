@@ -32,6 +32,10 @@ html {
   transition: 0.3s;
 }
 
+.menu-section-active {
+  width: 100%;
+}
+
 .menu-list {
   list-style: none;
   font-size: 32px;
@@ -58,6 +62,16 @@ html {
 .menu-toggle i {
   color: #979493;
   font-size: 22px;
+}
+
+.menu-item {
+  border-bottom: 1px solid #6f6c6b;
+  padding: 1rem;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: #fff5e1;
 }
 
 .headerr {
