@@ -16,6 +16,22 @@ html {
   align-items: center;
 }
 
+.menu-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #3c3a39;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding-top: 5rem;
+  width: 0;
+  transition: 0.3s;
+}
+
 .headerr {
   display: flex;
   justify-content: space-between;
