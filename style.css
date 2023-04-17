@@ -123,6 +123,10 @@ html {
   background-position: 100% 116%;
 }
 
+.header1 {
+  flex-direction: column;
+}
+
 .header-text {
   font-family: "Crete Round", serif;
   font-size: 56px;
