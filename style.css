@@ -44,6 +44,22 @@ html {
   gap: 2rem;
 }
 
+.menu-toggle {
+  position: absolute;
+  padding: 0.5rem;
+  right: 2rem;
+  top: 2rem;
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-toggle i {
+  color: #979493;
+  font-size: 22px;
+}
+
 .headerr {
   display: flex;
   justify-content: space-between;
