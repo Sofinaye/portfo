@@ -49,8 +49,6 @@ The portfolio is built with html, css and linter configration with git workflow.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
 - [Live Demo Link](https://sofinaye.github.io/Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
