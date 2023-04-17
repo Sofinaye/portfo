@@ -32,6 +32,18 @@ html {
   transition: 0.3s;
 }
 
+.menu-list {
+  list-style: none;
+  font-size: 32px;
+  font-family: "Inter", serif;
+  font-weight: 700;
+  color: #fff5e1;
+  display: flex;
+  padding: 0 2rem;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 .headerr {
   display: flex;
   justify-content: space-between;
