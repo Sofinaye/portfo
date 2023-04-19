@@ -799,6 +799,24 @@ html {
   background-color: rgba(151, 148, 147, 0.9);
 }
 
+.popup {
+  background-color: #fff;
+  padding: 1.5rem;
+}
+
+.popup-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+}
+
+.popup-heading-text {
+  font-size: 32px;
+  font-family: "Roboto", serif;
+  color: #172b4d;
+}
+
 @media only screen and (max-width: 1200px) and (min-width: 768px) {
   .all-project {
     grid-template-columns: repeat(2, 1fr);
