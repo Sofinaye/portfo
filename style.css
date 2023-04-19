@@ -660,6 +660,7 @@ html {
 .error-msg {
   padding-left: 30px;
   margin-top: -27px;
+  color: #f79696;
 }
 
 @media only screen and (min-width: 768px) {
