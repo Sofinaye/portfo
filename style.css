@@ -900,6 +900,19 @@ html {
     width: 40%;
     padding-bottom: 2rem;
   }
+
+  .popup-img-container {
+    width: 60%;
+    height: 35vw;
+  }
+
+  .popup-btn-item {
+    font-size: 15px;
+  }
+
+  .popup-disc-btn {
+    justify-content: flex-start;
+  }
 }
 
 @media only screen and (max-width: 1200px) and (min-width: 768px) {
