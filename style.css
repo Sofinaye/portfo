@@ -887,6 +887,19 @@ html {
   .menu-section-active {
     width: 0;
   }
+
+  .popupBody {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .popupDesci {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    padding-bottom: 2rem;
+  }
 }
 
 @media only screen and (max-width: 1200px) and (min-width: 768px) {
