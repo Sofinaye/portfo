@@ -817,6 +817,36 @@ html {
   color: #172b4d;
 }
 
+.popup-heading-btn {
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.popup-heading-btn i {
+  color: #979493;
+  font-size: 22px;
+}
+
+.popup-btn {
+  display: flex;
+  list-style: none;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.popup-btn-item {
+  padding: 1rem;
+  margin: 4rem 0 2rem 0;
+  font-family: "Poppins", serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: #3c3a39;
+  background: none;
+  border: 1px solid #dfe1e6;
+}
+
 @media only screen and (max-width: 1200px) and (min-width: 768px) {
   .all-project {
     grid-template-columns: repeat(2, 1fr);
