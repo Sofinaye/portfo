@@ -638,6 +638,21 @@ html {
   text-decoration: none;
 }
 
+.popup-disc-btn-item:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+.popup-disc-btn-item:active {
+  background-color: #f55800;
+  color: #fff;
+}
+
+.popup-disc-btn-item:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
+}
+
 .popup-disc-btn-item i {
   margin-left: 1.5rem;
 }
