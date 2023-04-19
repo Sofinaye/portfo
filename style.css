@@ -787,6 +787,18 @@ html {
   }
 }
 
+#popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  overflow: hidden;
+  height: 100vh;
+  z-index: 100;
+  padding: 2rem;
+  background-color: rgba(151, 148, 147, 0.9);
+}
+
 @media only screen and (max-width: 1200px) and (min-width: 768px) {
   .all-project {
     grid-template-columns: repeat(2, 1fr);
