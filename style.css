@@ -913,7 +913,7 @@ html {
   .popup-disc-btn {
     justify-content: flex-start;
   }
-  
+
   #popup-container {
     padding: 5% 6%;
     overflow-y: auto;
