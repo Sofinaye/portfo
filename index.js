@@ -77,6 +77,112 @@ const menuIcon = document.querySelector('#menu-icon');
 const menuToggle = document.querySelector('#menu-toggle');
 const menuSection = document.querySelector('#menu-section');
 
+const removePopup = () => {
+  const popupContainer = document.getElementById('popup-container');
+  document.querySelector('.about-overly').style.display = 'block';
+  selectedProject = null;
+  popupContainer.remove();
+};
+
+const addPopup = () => {
+  if (selectedProject) {
+    const popupContainer = document.createElement('div');
+    popupContainer.setAttribute('id', 'popup-container');
+    document.querySelector('.about-overly').style.display = 'none';
+    document.body.appendChild(popupContainer);
+    const popup = document.createElement('div');
+    popup.setAttribute('class', 'popup');
+    popupContainer.appendChild(popup);
+
+    const popupHeading = document.createElement('div');
+    popupHeading.setAttribute('class', 'popup-heading');
+    popup.appendChild(popupHeading);
+
+    const popupHeadingText = document.createElement('h2');
+    popupHeadingText.setAttribute('class', 'popup-heading-text');
+
+    if (selectedProject.id === 'showCase') {
+      popupHeadingText.textContent = selectedProject.title;
+    } else {
+      popupHeadingText.textContent = selectedProject.titleTop + selectedProject.titleBottom;
+    }
+    popupHeading.appendChild(popupHeadingText);
+
+    const popupHeadingBtn = document.createElement('button');
+    popupHeadingBtn.setAttribute('class', 'popup-heading-btn');
+    popupHeadingBtn.addEventListener('click', removePopup);
+    popupHeading.appendChild(popupHeadingBtn);
+
+    const popupClose = document.createElement('i');
+    popupClose.setAttribute('class', 'fa-solid fa-xmark');
+    popupHeadingBtn.appendChild(popupClose);
+
+    const popupList = document.createElement('ul');
+    popupList.setAttribute('class', 'popup-btn');
+    popup.appendChild(popupList);
+
+    selectedProject.technologies.forEach((tech) => {
+      const popupBtnItem = document.createElement('li');
+      popupList.appendChild(popupBtnItem);
+
+      const popupBtn = document.createElement('button');
+      popupBtn.setAttribute('class', 'popup-btn-item');
+      popupBtn.textContent = tech;
+      popupBtnItem.appendChild(popupBtn);
+    });
+
+    const popupBody = document.createElement('div');
+    popupBody.setAttribute('class', 'popupBody');
+    popup.appendChild(popupBody);
+
+    const popupImgContainer = document.createElement('div');
+    popupImgContainer.setAttribute('class', 'popup-img-container');
+    popupBody.appendChild(popupImgContainer);
+
+    const popupImg = document.createElement('img');
+    popupImg.setAttribute('class', 'popup-img');
+    popupImg.setAttribute('src', selectedProject.image);
+    popupImgContainer.appendChild(popupImg);
+
+    const popupDesc = document.createElement('div');
+    popupDesc.setAttribute('class', 'popupDesci');
+    popupBody.appendChild(popupDesc);
+    const popupDescription = document.createElement('p');
+    popupDescription.setAttribute('class', 'popup-disc');
+    popupDescription.textContent = selectedProject.description;
+    popupDesc.appendChild(popupDescription);
+    const popupDescriptionBtn = document.createElement('ul');
+    popupDescriptionBtn.setAttribute('class', 'popup-disc-btn');
+    popupDesc.appendChild(popupDescriptionBtn);
+
+    const popupBtnList1 = document.createElement('li');
+    popupDescriptionBtn.appendChild(popupBtnList1);
+
+    const popupDescriptionBtnItem1 = document.createElement('a');
+    popupDescriptionBtnItem1.setAttribute('class', 'popup-disc-btn-item');
+    popupDescriptionBtnItem1.setAttribute('href', selectedProject.seeSource);
+    popupDescriptionBtnItem1.textContent = 'See Live';
+    popupBtnList1.appendChild(popupDescriptionBtnItem1);
+
+    const popupDescriptionIcon1 = document.createElement('i');
+    popupDescriptionIcon1.setAttribute('class', 'fa-solid fa-arrow-up-right-from-square');
+    popupDescriptionBtnItem1.appendChild(popupDescriptionIcon1);
+
+    const popupBtnList2 = document.createElement('li');
+    popupDescriptionBtn.appendChild(popupBtnList2);
+
+    const popupDescriptionBtnItem2 = document.createElement('a');
+    popupDescriptionBtnItem2.setAttribute('class', 'popup-disc-btn-item');
+    popupDescriptionBtnItem2.setAttribute('href', selectedProject.seeSource);
+    popupDescriptionBtnItem2.textContent = 'See Source';
+    popupBtnList2.appendChild(popupDescriptionBtnItem2);
+
+    const popupDescriptionIcon2 = document.createElement('i');
+    popupDescriptionIcon2.setAttribute('class', 'fa-brands fa-github');
+    popupDescriptionBtnItem2.appendChild(popupDescriptionIcon2);
+  }
+};
+
 const showProject = (evt) => {
   const id = evt.target.getAttribute('data-id');
   if (id === 'showCase') {
